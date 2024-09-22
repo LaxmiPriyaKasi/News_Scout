@@ -15,33 +15,37 @@ News Scout is an AI-driven chatbot designed to provide users with the latest new
 
 ### Setup Instructions
 Step 0: Download the zip file from the github repo & unzip the file
+
 Step 1: Create a venv using cmd
-	```Python -m venv venv
+	```Python -m venv venv```
+
 Activate the venv using
-	```.\venv\Scripts\activate
+	.\venv\Scripts\activate
 Install the requirements.txt using
-	```pip install -r requirements.txt
+	```pip install -r requirements.txt```
 
 Step 2: Once the requirements.txt are installed, let’s run the chatbot folder and gemini agents folder in 2 separate terminals so ensure that you have 2 terminals open with venv activated and navigated to respective folders
+```
 	cd chatbot (in terminal 1)
 	cd gemini_agents (in terminal 2)
+```
 
 Step 3: In the gemini_agents terminal, create a .env file and add 2 API Keys – Google API Key and Serper API Key as follows
 	SERPER_API_KEY = #Key
-GOOGLE_API_KEY = #Key
+	GOOGLE_API_KEY = #Key
 
 Run the gemini agents using
-	```uvicorn app:app –reload
+	```uvicorn app:app –reload```
 
 Step 4: In the chatbot terminal,
 Install javascript depencies using
-	npm install next react react-dom
+	```npm install next react react-dom```
 this creates the node modeules folder – ensure that it exists
 Start the react app using 
-	```npm run app
+	```npm run app```
 
 Step 5: Navigate to localhost:3000 to access the chat interface
-Step 6: This opens the chatbot interface where yu can interact with the news app by asking news or current affairs you have
+Step 6: This opens the chatbot interface where you can interact with the news app by asking news or current affairs questions or queries you have
 
 
 ### Why users should adopt this tool
