@@ -31,6 +31,7 @@ Step 2: Once the requirements.txt are installed, let’s run the chatbot folder 
 ```
 
 Step 3: In the gemini_agents terminal, create a .env file and add 2 API Keys – Google API Key and Serper API Key as follows
+	
 	SERPER_API_KEY = #Key
 	GOOGLE_API_KEY = #Key
 
